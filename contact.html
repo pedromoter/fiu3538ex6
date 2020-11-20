@@ -1,0 +1,139 @@
+<!--
+    Pedro Moter
+    Exercise 2 
+    Added resposive design 
+    Added bubbles with sticky titles because they look like uber easts
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta name="author" content="Pedro Moter">
+        <title> Assignment 4</title>
+
+        <style>
+            html,body {
+                font-family : 'roboto';
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            span, ul{
+                font-size: 30pt;
+                background : linear-gradient(92.05deg, #BCA1F7 12.09%, #E577B4 42.58%, #FF7170 84.96%);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent; 
+            }
+
+            ul {
+                color : gold
+            }
+
+            p {
+                text-align: center;
+                max-width:  80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+            .header {
+                background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+                color : white;
+                font-size: 48pt;
+
+            }
+            
+            .container {
+                width:  80%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+
+            .menu > a  :-webkit-any-link{
+                color : white 
+            }
+
+
+        </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    </head>
+
+    <body>
+
+       <div class="header">
+
+        City of Miami
+
+       </div>
+
+       <div  class="menu" style="width:100%; background-color:#4158D0; color : white; font-size:  18pt; display: flex; flex-direction: row; justify-content: space-around;">
+        <div>
+            <a href="home.html" > Home </a>  
+        </div>
+
+
+        <div>
+            Contact 
+        </div>
+
+        <div>
+            <a href="help.html" > Help </a>  
+        </div>
+
+        </div>
+
+       </div>
+
+       <div class="container">
+
+
+        <div style="display: flex; flex-direction: row; justify-content: center; padding-top: 50px; padding-bottom: 50px; margin-top: 30px; margin-bottom: 30px; background-color: #f3f3f3; border-radius: 20px; ">
+
+            <div style="position: sticky; top : 10px; height: 100%;">
+                <span >Contact us</span>
+
+            </div>
+            
+            <div style="position: sticky; top : 400px;">
+                               
+                <p>
+                        Phone : +1 321 900 6457 
+                </p>
+                
+                <p>
+                    Location : 201 Se 5th av
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14366.20075261161!2d-80.2097866515738!3d25.81840977783685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b14f4d40667f%3A0x6d8de64bd100967e!2sNW%205%20Ave%2C%20Miami%2C%20FL%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1605907770735!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+            
+            
+
+        </div>
+    
+       </div>
+
+
+        <div  style="color:white; width : 100%; background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);   padding-bottom: 50px; padding-top: 50px;      position: fixed; bottom : 0;">
+            <div style="display : flex; flex-direction : row; text-align: center; color: white; font-size : 20pt; margin-left: auto; margin-right: auto; text-align: center; justify-content: center; align-items: center;">
+                <img style="max-width: 90px; margin-right : 20px;" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300">
+                <div style="margin-right : 20px;">Follow us on Instagram </div>
+            </div>
+        </div>
+
+
+    </body>
+
+
+</html>
